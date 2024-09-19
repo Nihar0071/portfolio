@@ -103,8 +103,8 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
+        title="Developing a dynamic drogrammed Monte Carlo Simulator"
+        description="Implementing a new technique in Bayesian Statistics that can Maximise &alpha; (ALPHA) "
         buttonText="View project"
         buttonLink="/projects/smart-sparrow"
         model={{

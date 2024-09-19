@@ -26,9 +26,9 @@ export const socialLinks = [
     icon: 'twitter',
   },
   {
-    label: 'Figma',
-    url: `https://www.figma.com/${config.figma}`,
-    icon: 'figma',
+    label: 'leetcode',
+    url: `https://leetcode.com/u/${config.figma}`,
+    icon: '',
   },
   {
     label: 'Github',
