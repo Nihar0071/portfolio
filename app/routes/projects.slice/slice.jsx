@@ -40,10 +40,10 @@ import { media } from '~/utils/style';
 import { baseMeta } from '~/utils/meta';
 import styles from './slice.module.css';
 
-const title = 'Biomedical image collaboration';
+const title = 'Baysian Simulation of Inferenz';
 const description =
-  'This project involved designing a better way for biomedical educators and learners to annotate digital slides together.';
-const roles = ['User Research', 'UX Design', 'Interface Design'];
+  'This project involves complex mathematics for implementing inferential baysian statistics of financial markets.';
+const roles = ['Quant Developer', 'Optimiser', 'Analyst'];
 
 export const meta = () => {
   return baseMeta({ title, description, prefix: 'Projects' });
