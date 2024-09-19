@@ -21,16 +21,16 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      Hello, I'm Nihar, a software engineer and computer science student at Boston University. 
+      I’ve worked as a Software Developer, Data Scientist, and AI/ML Developer, optimizing systems for better performance. My focus spans Mathematical Simulations, Software Development, and High-Performance Computing.
+      I’ve also published research in federated and distributed learning, always pushing to implement cutting-edge technologies.
     </Text>
+
+
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+      In my spare time I like to practice Baysian Statistics, play tennis, and{' '}
+      <Link href="https://github.com/Nihar0071/Bollinger-Bands"> do financial simulations</Link>. I’m always down for hearing
+      about new algorithms, so feel free to drop me a line.
     </Text>
   </Fragment>
 );
