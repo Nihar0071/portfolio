@@ -40,10 +40,10 @@ import { media } from '~/utils/style';
 import { baseMeta } from '~/utils/meta';
 import styles from './slice.module.css';
 
-const title = 'Baysian Simulation of Inferenz';
+const title = 'Product: Credit Union Benchmarking BI Tool';
 const description =
-  'This project involves complex mathematics for implementing inferential baysian statistics of financial markets.';
-const roles = ['Quant Developer', 'Optimiser', 'Analyst'];
+  'This is a product made for a company named AIVA Partners who are consultants and required a dynamic conversational BI tool.';
+const roles = ['Quant Developer', 'SDE', 'Analyst'];
 
 export const meta = () => {
   return baseMeta({ title, description, prefix: 'Projects' });
@@ -64,7 +64,7 @@ export const Slice = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="https://www.best.edu.au/s/q2yjjvl7?data=8%404!9%4020303!10%40-15087&version=1"
+          url="https://aiva-final.streamlit.app/"
           roles={roles}
         />
         <ProjectSection padding="top">
@@ -84,14 +84,13 @@ export const Slice = () => {
             <div className={styles.imagesText}>
               <ProjectSectionHeading>Bringing it together</ProjectSectionHeading>
               <ProjectSectionText>
-                Teachers needed a better way to create collaborative group activities by
-                annotating slides on Slice. Before starting this project, a layer could
-                only be annotated by a single user, making it difficult for learners to
-                work together.
+                Analysts were in a requirement for a more abstract tool that can help them 
+                to analyse and derive insights in a time and complexity efficient way. Thus given a 
+                great outbreak of GenAI, Conversational BI Tool were a great fit for providing dynamic infernez.
               </ProjectSectionText>
               <ProjectSectionText>
-                Our solution was to allow users to be invited to a layer, where they can
-                see others’ annotations and make their own.
+                Our solution was to allow analysts to be invited to a layer, where they can import, extract, transform and load data 
+                into a conversational interface. This interface was built using Streamlit and was able to provide a great way to support Credit Unions and provide insights.
               </ProjectSectionText>
             </div>
             <div className={styles.sidebarImages}>
@@ -121,12 +120,9 @@ export const Slice = () => {
             <ProjectTextRow>
               <ProjectSectionHeading>Improving the experience</ProjectSectionHeading>
               <ProjectSectionText>
-                A problem we heard about often form users was that it was difficult to
-                find images they had previously seen or worked on. To solve this we added
-                a new tab that lists all previously annotated slides. In addition, we
-                added the ability to favorite slides, so if users find an interesting
-                slide they want to annotate later, they can easily save it to their
-                account.
+                Improved the user experience by adding a new feature that allows users to create and manage their
+                personalised and private analysis as per the customer(Credit Unions) they are dealing with by properly managing ID's and 
+                profile authentications.
               </ProjectSectionText>
             </ProjectTextRow>
             <Image
@@ -154,24 +150,16 @@ export const Slice = () => {
                 />
               </div>
               <div className={styles.gridForeground}>
-                <Image
-                  srcSet={`${sliceAnnotation} 440w, ${sliceAnnotationLarge} 880w`}
-                  width={440}
-                  height={340}
-                  placeholder={sliceAnnotationPlaceholder}
-                  alt="An annotation preview popover with statistics for shape perimeter and area."
-                  sizes={`(max-width: ${media.mobile}px) 584px, (max-width: ${media.tablet}px) 747px, 556px`}
-                />
+                
               </div>
             </div>
             <div className={styles.gridText}>
               <ProjectSectionHeading>Meaningful details</ProjectSectionHeading>
               <ProjectSectionText>
-                Marking and annotating areas on high resolution biomedical images is the
-                core experience of the app, and it was easy to get lost or lose sense of
-                scale when zooming in on details. Adding measurements for the perimeter
-                and area of an annotation both helped to communicate the overall scale of
-                the image and how large the annotated feature is in comparison.
+              The conversational BI tool I developed for analyzing credit unions is designed to simplify how users interact with complex financial data. By using natural language processing,
+              I’ve made it possible for users to ask questions about their credit union’s performance and receive insights in a conversational format. Whether it’s analyzing loan performance, member engagement, or risk metrics,
+              the tool eliminates the need for technical queries, allowing users to focus on decision-making rather than data manipulation. I’ve incorporated industry-specific KPIs and compliance measures to ensure that credit unions can quickly identify trends, optimize their resources, and stay financially healthy. 
+              The goal is to make data-driven decisions more accessible and actionable for everyone involved.
               </ProjectSectionText>
             </div>
           </ProjectSectionContent>
@@ -181,11 +169,11 @@ export const Slice = () => {
             <ProjectTextRow>
               <ProjectSectionHeading>Project outcomes</ProjectSectionHeading>
               <ProjectSectionText>
-                Real-time collaborative annotation facilitated better collaboration
-                between learners, and was much easier to run group exercises with the new
-                shared layers feature. Learners gave feedback that is was enjoyable to
-                work together and see what others were doing, and liked how interactive
-                and easy to use the application was.
+              Real-time collaboration between analysts and credit unions is conducted in an abstract,
+              less detail-oriented manner, creating a space for effective, result-oriented communication between the two parties. 
+              This in-house product is currently up and running with free access for employees and permissioned access for the general public, 
+              as granted by the organization for the bot.
+
               </ProjectSectionText>
             </ProjectTextRow>
             <Image
