@@ -124,10 +124,10 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
+        title="Traffic Congestion Control App"
+        description="Coming from a Country where traffic is always as the peak this is my effort and idea to make peoples voice audible to authorities to fix roads and manage traffic."
         buttonText="View website"
-        buttonLink="https://gamestack.hamishw.com"
+        buttonLink="https://github.com/Nihar0071/pothole-htl"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -148,8 +148,8 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
+        title="AIVA Partners: Conversational BI Tool"
+        description="An abstract fine tuned convo model for providing inferenz and analysis of respective credit unions."
         buttonText="View project"
         buttonLink="/projects/slice"
         model={{
