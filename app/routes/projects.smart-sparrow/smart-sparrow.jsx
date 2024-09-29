@@ -70,14 +70,14 @@ const EarthSection = lazy(() =>
   import('./earth').then(module => ({ default: module.EarthSection }))
 );
 
-const title = 'Designing the future of education';
+const title = 'Optimisation is all we need in a High Frequency .env';
 const description =
-  'I worked as the design lead on a major iteration of Smart Sparrow’s product. We took the platform in a bold new direction, focusing on becoming the best tool for learning designers.';
+  'This is my own thing where I toggle with Mathematics and statistics to get a better understanding of developing my own Golem(Algo) to asses risk and trading volatility for assesment.';
 const roles = [
-  'Art Direction',
-  'UX and UI Design',
-  'Front End Development',
-  'Motion Design',
+  'Algorithm Design',
+  'SOLID Principals',
+  'Quantitative Risk Assesment',
+  'Scalabilty',
 ];
 
 export const meta = () => {
@@ -105,7 +105,7 @@ export const SmartSparrow = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="https://www.smartsparrow.com/"
+          url="https://github.com/Nihar0071/Finance-Engine-in-C--"
           roles={roles}
         />
         <ProjectSection padding="top">
@@ -134,13 +134,10 @@ export const SmartSparrow = () => {
           <ProjectTextRow>
             <ProjectSectionHeading>The problem</ProjectSectionHeading>
             <ProjectSectionText>
-              In 2017, Smart Sparrow began a project to build an entirely new platform to
-              from the ground up to serve as the most powerful tool for educators to
-              create online learning experiences. The old platform was built in Flash, and
-              there were a number of user experience problems to solve in the process of
-              moving the platform to Javascript. The primary goals for the project were
-              reducing barriers to collaboration, and making the platform both easier for
-              new users, but with plenty of room to scale for advanced users.
+            I believe statistics is a form of engineering used to understand and model natural phenomena and their occurrences. 
+            Human behavior is one such phenomenon, rooted in science. As a trader, I think market movements and price actions are largely influenced by the psychology of risk management as traders handle their money. 
+            This project is a blend of curated statistical methods, scalable for High-Frequency Trading, where one can assess and identify market risks, take appropriate trading actions based on observed price movements, 
+            and make inferences accordingly.
             </ProjectSectionText>
           </ProjectTextRow>
         </ProjectSection>
